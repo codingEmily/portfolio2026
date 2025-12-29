@@ -1,14 +1,14 @@
+import Hero from "./pages/hero"
+import About from "./pages/about"
+import Nav from "@/assets/nav"
+
 export default function Home() {
   return (
     <div>
       <main>
-        <div>
-          <h1>tfhtrh</h1>
-          <p>wegterhrehe</p>
-        </div>
-        <div>
-          <p>HELLO MAIN PAGE HERE</p>
-        </div>
+        <Nav />
+        <Hero />
+        <About />
       </main>
     </div>
   )
