@@ -1,6 +1,6 @@
 import Hero from "./pages/hero"
 import About from "./pages/about"
-import Nav from "@/assets/nav"
+import Nav from "@/app/nav"
 
 export default function Home() {
   return (
