@@ -1,7 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;900&display=swap");
+
 @tailwind base;
 @tailwind components;
-@tailwind utilities
-
+@tailwind utilities;
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -11,5 +12,6 @@
 }
 
 * {
-  font-family: Outfit;
+  font-family: "Outfit", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial;
 }

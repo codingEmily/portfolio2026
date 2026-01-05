@@ -1,4 +1,4 @@
-import { MyLogo as CanvaLogo } from ".//MyLogo.png"
+import CanvaLogo from "./MyLogo.png"
 
 // export images here
 export const assets = {
